@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: auto;
+    display: grid;
+    font-family: "Open Sans", sans-serif;
+}
+
+.profile {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    position: relative;
+    min-height: 930px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header-color {
+    width: 100%;
+    padding-bottom: 215px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.profile-pic {
+    width: 100%;
+}
+
+.profile-pic .profile_pic_align img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+
+.title {
+    width: 100%;
+    margin-left: 55px;
+}
+
+.infotext {
+    margin-bottom: 25px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.infotext b{
+    font-size: 17px;
+    margin: 8px;
+    /* color: #000;
+    background-color: #e6e6e6; */
+}
+
+.profile_pic_align{
+    margin-left: 85px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #131b23;
+    margin-bottom: 10px;
+    letter-spacing: 0.025em;
+}
+
+.profile h5{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    /* margin-right: 35%; */
+}
+
+.saveContactClass {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    background: #141414;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    /* width: auto; */
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin: 5px;
+    width: 180px;
+    height: 50px;
+}
+
+.iconInButton {
+    display: inline-block;
+    font-weight: 400;
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.25rem 0.7rem;
+    font-size: .9375rem;
+    line-height: 1.5;
+    border-radius: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.messages:after {
+    position: absolute;
+    content: '';
+    bottom: 8px;
+    left: 16px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    -webkit-transform: rotateZ(35deg) scaleX(0.5) scaleY(1.6);
+    -moz-transform: rotateZ(35deg) scaleX(0.5) scaleY(1.6);
+    -ms-transform: rotateZ(35deg) scaleX(0.5) scaleY(1.6);
+    -o-transform: rotateZ(35deg) scaleX(0.5) scaleY(1.6);
+    transform: rotateZ(35deg) scaleX(0.5) scaleY(1.6);
+}
+
+.flex-item {
+    margin: 35px;
+    margin-bottom: 20px;
+    padding: 1px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    font-weight: 400;
+    text-decoration: none;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px;
+    border-radius: 12px;
+}
+
+.contactMenulist ul>li {
+    list-style-type: none;
+    /* width: 100% !important; */
+}
+
+.listClass {
+    text-decoration: none;
+}
+
+.flex-item a{
+    all: unset;
+    cursor:pointer;
+ }
+
+ .login-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 70vh !important;
+    margin-top: 12vh !important;
+    
+    /* @media screen and (min-width: 600px) {
+        width: 50vw;
+        max-width: 15em;
+    } */
+}
+
+.flex-row {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.lf--submit {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #000;
+    min-width: 315px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+.deviceprofile-pic{
+    width: 100%;
+}
+
+.deviceheader-color {
+    width: 100%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: black;
+}
+
+.deviceprofile-pic .deviceheader-color img {
+    width: 175px;
+    margin: 10px 0px;
+}
+
+  .preloader {
+	position: fixed;
+	opacity: 0.5;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Phi_fenomeni.gif/50px-Phi_fenomeni.gif') 50% 50% no-repeat rgb(249, 249, 249);
+}
+
+.infotabs {
+    background-color: antiquewhite;
+    border-radius: 6px;
+    min-height: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    min-width: 140px;
+    height: auto;
+    word-break: break-all;
+    font-weight: 700;
+}
+
+.infotext .infotabs b{
+    font-size: 17px;
+    margin: 8px;
+}

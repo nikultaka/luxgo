@@ -1,0 +1,60 @@
+.error {
+    color: #F00 !important;
+    /* background-color: #FFF; */
+  }
+  
+
+  /* .preloader {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    z-index: 99999999999999999999999999999999 !important;
+
+  }
+  
+  .preloader span {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+  }
+  */
+  /* .preloader .preloader-icon,.inside-loader .preloader-icon {
+    border: 2px solid #eeeeee;
+    border-radius: 50%;
+    border-top: 2px solid #153d77;
+    width: 70px;
+    height: 70px;
+    -webkit-animation: spin 0.5s linear infinite;
+            animation: spin 0.5s linear infinite;
+  } */
+
+  .preloader {
+    position: fixed;
+    opacity: 0.5;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2147483647;
+    background: url('../theme/images/loader.gif') 50% 50% no-repeat rgb(249, 249, 249);
+  }
+
+
+
+  body.swal2-height-auto  {
+    height:100% !important
+  } 
+
+  /* .swal-height {
+    height: 80vh;
+  } */
